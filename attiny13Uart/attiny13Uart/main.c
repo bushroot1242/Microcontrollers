@@ -1,16 +1,18 @@
 #include "main.h"
 
+
 int main(void)
 {
 	uart_init();
-	uint8_t i = 65;
-	_delay_ms(5);
+	_delay_ms(50);
+	uint8_t *rb = 0;
 	while (1)
 	{
-
-
-		uart_send(i++);
-		_delay_ms(2);
+		uart_recieve(rb);
+		if (*rb>0){
+			uart_send(*rb);
+			*rb=0;
+		}
 
 	}
 }
