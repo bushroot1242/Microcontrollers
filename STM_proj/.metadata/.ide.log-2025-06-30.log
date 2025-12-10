@@ -1,0 +1,38 @@
+2025-08-14 13:19:06,805 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 397307528 Bytes (1010827264)
+2025-08-14 13:19:07,441 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 408227408 Bytes (1010827264)
+2025-08-14 13:19:07,513 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-08-14 13:19:07,516 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-08-14 13:19:07,518 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-08-14 13:19:13,388 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 991793272 Bytes (1069547520)
+2025-08-14 13:19:13,552 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-08-14 13:19:13,553 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-08-14 13:19:13,554 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-08-14 13:19:13,931 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-14 13:19:13,931 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-14 13:19:13,933 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-14 13:19:13,933 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-14 13:19:13,935 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-08-14 13:19:14,363 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\MXTmpFiles\license.tmp_save
+2025-08-14 13:19:15,217 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\MXTmpFiles\license.tmp
+2025-08-14 13:19:15,278 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\MXTmpFiles\gpio.tmp_save
+2025-08-14 13:19:15,737 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\MXTmpFiles\gpio.tmp
+2025-08-14 13:19:15,803 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\Core\Src\stm32f0xx_it.c_save
+2025-08-14 13:19:16,590 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\Core\Src\stm32f0xx_it.c
+2025-08-14 13:19:16,606 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\Core\Inc\stm32f0xx_it.h_save
+2025-08-14 13:19:16,851 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\Core\Inc\stm32f0xx_it.h
+2025-08-14 13:19:16,876 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\Core\Src\stm32f0xx_hal_msp.c_save
+2025-08-14 13:19:17,225 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\Core\Src\stm32f0xx_hal_msp.c
+2025-08-14 13:19:17,235 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\MXTmpFiles\system.tmp_save
+2025-08-14 13:19:17,435 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\MXTmpFiles\system.tmp
+2025-08-14 13:19:17,456 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\Core\Inc\stm32f0xx_hal_conf.h_save
+2025-08-14 13:19:17,655 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\Core\Inc\stm32f0xx_hal_conf.h
+2025-08-14 13:19:17,704 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\Core\Inc\main.h_save
+2025-08-14 13:19:18,018 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\Core\Inc\main.h
+2025-08-14 13:19:18,029 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_HAL\Core\Src\main.c_save
+2025-08-14 13:19:18,379 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_HAL\Core\Src\main.c
+2025-08-14 13:19:19,154 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 297mS.
+2025-08-14 13:19:19,163 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-08-14 13:19:19,422 [INFO] ConfigFileManager:1590 - The Die is : DIE444
+2025-08-14 13:19:22,769 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3606mS.
+2025-08-14 13:19:22,770 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-08-14 13:19:22,776 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.

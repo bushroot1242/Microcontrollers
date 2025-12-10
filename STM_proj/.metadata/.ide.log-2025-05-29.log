@@ -1,0 +1,39 @@
+2025-05-29 08:41:29,885 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-05-29 08:41:32,561 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3717mS.
+2025-05-29 08:41:32,562 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-29 08:41:32,567 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-29 08:41:34,977 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-05-29 08:41:34,984 [INFO] ApiDb:448 - Save user favorites file C:\Users\User/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2025-05-29 08:41:34,984 [INFO] ApiDb:452 - User favorites MCUs=[]
+2025-05-29 08:43:04,895 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 871557952 Bytes (1073741824)
+2025-05-29 08:43:11,629 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 465070768 Bytes (1073741824)
+2025-05-29 08:43:12,991 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-29 08:43:12,991 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-29 08:43:12,992 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-29 08:43:12,994 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-05-29 08:43:13,336 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\license.tmp_save
+2025-05-29 08:43:13,683 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\license.tmp
+2025-05-29 08:43:13,750 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\gpio.tmp_save
+2025-05-29 08:43:13,938 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\gpio.tmp
+2025-05-29 08:43:13,977 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\cortex.tmp_save
+2025-05-29 08:43:14,139 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\cortex.tmp
+2025-05-29 08:43:14,165 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c_save
+2025-05-29 08:43:14,345 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c
+2025-05-29 08:43:14,357 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h_save
+2025-05-29 08:43:14,519 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h
+2025-05-29 08:43:14,557 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c_save
+2025-05-29 08:43:14,784 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c
+2025-05-29 08:43:14,791 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\system.tmp_save
+2025-05-29 08:43:14,943 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\system.tmp
+2025-05-29 08:43:14,961 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h_save
+2025-05-29 08:43:15,142 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h
+2025-05-29 08:43:15,200 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\main.h_save
+2025-05-29 08:43:15,373 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\main.h
+2025-05-29 08:43:15,382 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\main.c_save
+2025-05-29 08:43:15,625 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\main.c
+2025-05-29 08:43:16,362 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 268mS.
+2025-05-29 08:43:16,369 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-05-29 08:43:16,598 [INFO] ConfigFileManager:1590 - The Die is : DIE451
+2025-05-29 08:43:19,508 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3139mS.
+2025-05-29 08:43:19,509 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-05-29 08:43:19,513 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.

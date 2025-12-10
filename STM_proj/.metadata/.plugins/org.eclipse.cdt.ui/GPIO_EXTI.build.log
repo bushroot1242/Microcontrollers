@@ -1,0 +1,24 @@
+14:30:30 **** Build of configuration Debug for project GPIO_EXTI ****
+make -j4 all 
+arm-none-eabi-gcc "C:/STM_proj/GPIO_EXTI/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F767xx -DUSE_STM32F7XX_NUCLEO_144 -c -I../../../Inc -I../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../../Drivers/CMSIS/Include -I../../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../../Drivers/BSP/STM32F7xx_Nucleo_144 -I../../../Drivers/BSP/Components/Common -I../../../Utilities/Log -I../../../Utilities/Fonts -I../../../Utilities/CPU -Os -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Example/User/main.o"
+arm-none-eabi-gcc "C:/STM_proj/GPIO_EXTI/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F767xx -DUSE_STM32F7XX_NUCLEO_144 -c -I../../../Inc -I../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../../Drivers/CMSIS/Include -I../../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../../Drivers/BSP/STM32F7xx_Nucleo_144 -I../../../Drivers/BSP/Components/Common -I../../../Utilities/Log -I../../../Utilities/Fonts -I../../../Utilities/CPU -Os -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/stm32f7xx_it.d" -MT"Example/User/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Example/User/stm32f7xx_it.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Example/SW4STM32/startup_stm32f767xx.d" -MT"Example/SW4STM32/startup_stm32f767xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Example/SW4STM32/startup_stm32f767xx.o" "C:/STM_proj/GPIO_EXTI/SW4STM32/startup_stm32f767xx.s"
+arm-none-eabi-gcc "C:/STM_proj/GPIO_EXTI/SW4STM32/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F767xx -DUSE_STM32F7XX_NUCLEO_144 -c -I../../../Inc -I../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../../Drivers/CMSIS/Include -I../../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../../Drivers/BSP/STM32F7xx_Nucleo_144 -I../../../Drivers/BSP/Components/Common -I../../../Utilities/Log -I../../../Utilities/Fonts -I../../../Utilities/CPU -Os -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/SW4STM32/syscalls.d" -MT"Example/SW4STM32/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Example/SW4STM32/syscalls.o"
+make: *** No rule to make target 'C:/STM_proj/GPIO_EXTI/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c', needed by 'Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o'.  Stop.
+make: *** Waiting for unfinished jobs....
+In file included from C:/STM_proj/GPIO_EXTI/Src/main.c:21:
+../../../Inc/main.h:24:10: fatal error: stm32f7xx_hal.h: No such file or directory
+   24 | #include "stm32f7xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from C:/STM_proj/GPIO_EXTI/Src/stm32f7xx_it.c:22:
+../../../Inc/main.h:24:10: fatal error: stm32f7xx_hal.h: No such file or directory
+   24 | #include "stm32f7xx_hal.h"
+      |          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Example/User/subdir.mk:24: Example/User/stm32f7xx_it.o] Error 1
+make: *** [Example/User/subdir.mk:22: Example/User/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+14:30:31 Build Failed. 6 errors, 0 warnings. (took 1s.224ms)
+

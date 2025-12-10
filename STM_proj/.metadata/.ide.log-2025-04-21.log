@@ -1,0 +1,11 @@
+2025-04-22 07:48:10,869 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-04-22 07:48:11,995 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-04-22 07:48:12,118 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-04-22 07:48:12,122 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-04-22 07:48:38,648 [INFO] WebAppUi:294 - Path where cad_preferences.json is located C:\Users\User/.stm32cubeide/
+2025-04-22 07:48:38,649 [INFO] WebAppUi:295 - Updating consent from JSON file
+2025-04-22 07:48:38,652 [INFO] WebAppUi:294 - Path where cad_preferences.json is located C:\Users\User/.stm32cubeide/
+2025-04-22 07:48:38,653 [INFO] WebAppUi:295 - Updating consent from JSON file
+2025-04-22 07:48:40,072 [INFO] WebApp:403 - JxBrowser engine has been closed 
+2025-04-22 07:48:40,072 [INFO] WebAppUi:493 - JxBrowser engine has been closed 
+2025-04-22 07:48:40,076 [INFO] WebAppUi:530 - Close the Jxbrowser engine manually

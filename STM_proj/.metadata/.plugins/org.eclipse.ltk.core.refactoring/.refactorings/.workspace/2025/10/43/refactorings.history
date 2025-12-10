@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;STM32F030F4P6_Timer_Capture_Mode&apos;" deleteContents="true" description="Delete resource &apos;STM32F030F4P6_Timer_Capture_Mode&apos;" element1="/STM32F030F4P6_Timer_Capture_Mode" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1761286794315"/>
+</session>

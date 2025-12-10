@@ -1,0 +1,13 @@
+10:33:11 **** Build of configuration Debug for project EXTI_ToggleLedOnIT ****
+make all 
+arm-none-eabi-gcc "C:/STM_proj/EXTI_ToggleLedOnIT/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DSTM32F767xx -DUSE_STM32F7XX_NUCLEO -DUSE_FULL_LL_DRIVER -DHSE_VALUE=8000000U -c -I../../../Inc -I../../../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../../../Drivers/STM32F7xx_HAL_Driver/Inc -I../../../Drivers/CMSIS/Include -Os -ffunction-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Example/User/main.o"
+In file included from C:/STM_proj/EXTI_ToggleLedOnIT/Src/main.c:23:
+../../../Inc/main.h:24:10: fatal error: stm32f7xx_ll_bus.h: No such file or directory
+   24 | #include "stm32f7xx_ll_bus.h"
+      |          ^~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Example/User/subdir.mk:22: Example/User/main.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+10:33:12 Build Failed. 2 errors, 0 warnings. (took 879ms)
+

@@ -1,0 +1,9 @@
+08:25:15 **** Clean-only build of configuration Debug for project STM32F030F4P6_Blink ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_Blink.bin STM32F030F4P6_Blink.elf STM32F030F4P6_Blink.hex STM32F030F4P6_Blink.list STM32F030F4P6_Blink.map default.size.stdout
+ 
+
+08:25:16 Build Finished. 0 errors, 0 warnings. (took 285ms)
+

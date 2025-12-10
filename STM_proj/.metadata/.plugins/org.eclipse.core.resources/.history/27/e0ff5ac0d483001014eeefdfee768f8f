@@ -1,0 +1,36 @@
+#include <stdint.h>
+#include <stm32f0xx.h>
+
+
+
+int main(void)
+{
+	//RCC->CR |= RCC_CR_HSEON | RCC_CR_CSSON ;//включить клок секъюрити и тактирование от внешнего кварца
+
+	 RCC->CFGR  |= RCC_CFGR_PLLMUL2;
+	 RCC->CR |= RCC_CR_PLLON;
+	 RCC->CFGR |= RCC_CFGR_PLLSRC_HSE_PREDIV;
+	 RCC->CFGR |= RCC_CFGR_SW_PLL;
+
+	 uint32_t delay, sh_delay = 1, l_delay = 1000000;
+
+
+	RCC->AHBENR |= RCC_AHBENR_GPIOAEN | RCC_AHBENR_GPIOBEN;
+	GPIOA->MODER |= GPIO_MODER_MODER4_0;
+	GPIOA->MODER &= ~GPIO_MODER_MODER4_1;
+	GPIOB->PUPDR |= 1<<2;
+
+	for(;;){
+		if((GPIOB->IDR & GPIO_IDR_1)==0) delay = l_delay;
+		else delay = sh_delay;
+		GPIOA->BSRR |=GPIO_BSRR_BS_4;
+		for(int i = 0; i<delay;i++){}
+		GPIOA->BSRR |=GPIO_BSRR_BR_4;
+		for(int i = 0; i<delay;i++){}
+
+	}
+
+}
+
+
+

@@ -1,0 +1,9 @@
+08:23:54 **** Clean-only build of configuration Debug for project STM32767_CMSIS_1_GPIO ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f767zitx.d ./Startup/startup_stm32f767zitx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32767_CMSIS_1_GPIO.elf STM32767_CMSIS_1_GPIO.list STM32767_CMSIS_1_GPIO.map default.size.stdout
+ 
+
+08:23:54 Build Finished. 0 errors, 0 warnings. (took 357ms)
+

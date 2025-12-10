@@ -1,0 +1,149 @@
+#include <stdint.h>
+#include <stm32f0xx.h>
+#define SYSCLOCK 48000000u
+
+
+void RCC_Config48MHz(){
+	SET_BIT(RCC->CR, RCC_CR_HSEON | RCC_CR_CSSON);//включить клок секъюрити и тактирование от внешнего кварца
+	SET_BIT(RCC->CFGR, RCC_CFGR_PLLSRC_HSE_PREDIV | RCC_CFGR_PLLMUL6);
+	SET_BIT(RCC->CR, RCC_CR_PLLON);
+	SET_BIT(RCC->CFGR, RCC_CFGR_SW_PLL);
+}
+
+void UART_Config(){
+	RCC->AHBENR |= RCC_AHBENR_GPIOAEN;
+	GPIOA->MODER |=(GPIO_MODER_MODER2_1 | GPIO_MODER_MODER3_1);
+	GPIOA->AFR[0] |=1 << GPIO_AFRL_AFRL2_Pos | 1<<GPIO_AFRL_AFRL3_Pos;
+	RCC->APB2ENR |= RCC_APB2ENR_USART1EN;
+	USART1->BRR = 5000;//48000000/(16*9600)*16
+	//USART1->BRR = 0x1a1;//115200 бод
+	USART1->CR1 |= USART_CR1_TE | USART_CR1_RE | USART_CR1_UE | USART_CR1_TCIE |//включить прием, передачу, ЮАРТ, минимальная настройка Уарт-------
+	  USART_CR1_RXNEIE; //разрешить прерывания по приему, и еще какие то USART_CR1_TXEIE |
+	USART1->CR3 |= USART_CR3_OVRDIS;
+	//NVIC_SetPriority(USART1_IRQn, 0);
+	NVIC_EnableIRQ(USART1_IRQn);
+}
+
+void UART_write(char data){
+	USART1->TDR = data;
+}
+
+void USART1_IRQHandler(){
+
+	USART1->ICR |= USART_ICR_TCCF;//tranmission complite clear flag
+
+	if(USART1->ISR & USART_ISR_ORE)//получено новое, старое еще не считано
+	{
+		USART1->ICR = USART_ICR_ORECF;
+		return;
+
+	}
+	if(USART1->ISR & USART_ISR_FE)//нарушение фрейма
+	{
+		USART1->ICR = USART_ICR_FECF;
+		return;
+
+	}
+	if((USART1->ISR & USART_ISR_TXE) & (USART1->CR1 & USART_CR1_TXEIE)){//буфер передачи пуст и готов к отправке след байта
+
+	}
+
+	if(USART1->ISR & USART_ISR_RXNE)//проверка наполнения буфера чтения
+	{
+		//recived = USART1->RDR;
+		SET_BIT(SysTick->CTRL,SysTick_CTRL_ENABLE_Msk);//счетчик включить
+
+	}
+
+
+}
+
+void ADC_calib(){//калибровка АЦП
+	ADC->CCR |= ADC_CCR_TSEN;//включить датчик температуры
+	if((ADC1->CR & ADC_CR_ADEN) != 0){//ждем отключения АЦП
+		ADC1->CR |= ADC_CR_ADDIS;
+	}
+
+	while ((ADC1->CR & ADC_CR_ADEN)!=0){}
+	ADC1->CFGR1 &= ~ADC_CFGR1_DMAEN;
+	ADC1->CR |= ADC_CR_ADCAL;
+	while((ADC1->CR & ADC_CR_ADCAL) != 0){}
+}
+volatile uint16_t adcData[2] = {0, };
+void DMA_init(){
+	RCC->AHBENR |= RCC_AHBENR_DMA1EN;
+	DMA1_Channel1->CPAR = (uint32_t)&(ADC1->DR);
+	DMA1_Channel1->CMAR = (uint32_t)adcData;
+
+
+	DMA1_Channel1->CNDTR = 3;
+	DMA1_Channel1->CCR |=  DMA_CCR_PSIZE_0 | DMA_CCR_MSIZE_0 | DMA_CCR_MINC | DMA_CCR_TCIE | DMA_CCR_TEIE | DMA_CCR_DIR | DMA_CCR_CIRC | DMA_CCR_MEM2MEM;
+	DMA1_Channel1->CCR |= DMA_CCR_EN;
+	NVIC_EnableIRQ(DMA1_Channel1_IRQn);
+}
+
+
+void ADC_init()
+{
+	RCC->APB2ENR |= RCC_APB2ENR_ADCEN;//тактирование ADC
+	GPIOA->MODER |= 3 << GPIO_MODER_MODER0_Pos;//GPOI в аналоговом режиме
+	ADC_calib();//калибровка АЦП, не обязательно
+	ADC1->CR |= ADC_CR_ADEN;//включение АЦП
+	while((ADC1->ISR & ADC_ISR_ADRDY)){	}//ждем устойчевого состояния
+	ADC1->CHSELR |= ADC_CHSELR_CHSEL0;//выбираем нулевой канал АЦП
+	ADC1->SMPR |= 7 << ADC_SMPR_SMP_Pos;//время измерения
+	ADC1->CFGR1 |= ADC_CFGR1_RES_1|ADC_CFGR1_DMAEN;//разрешение 8 бит
+	ADC1->IER |= ADC_IER_ADRDYIE | ADC_IER_EOSMPIE;//прерывания
+	NVIC_EnableIRQ(ADC1_IRQn);
+
+}
+
+void ADC_start()
+{
+	ADC1->CR |= ADC_CR_ADSTART;//старт измерения
+}
+
+void SysTick_Init(void){
+	MODIFY_REG(SysTick->LOAD, SysTick_LOAD_RELOAD_Msk, SYSCLOCK/20-1);//значение начала отсчета счетчика
+	CLEAR_BIT(SysTick->VAL, SysTick_VAL_CURRENT_Msk);//очистка текущего значения
+	SET_BIT(SysTick->CTRL, SysTick_CTRL_CLKSOURCE_Msk | SysTick_CTRL_ENABLE_Msk| SysTick_CTRL_TICKINT_Msk);//источник тактирования счетчика (PLL), разрешить прерывания
+}
+
+void ADC_IRQHandler(void){
+	if(ADC1->ISR & ADC_ISR_EOSMP){//событие по окончании записи
+
+		ADC1->ISR |= ADC_ISR_EOSMP;
+
+	}
+	if (ADC1->ISR & ADC_ISR_ADRDY){//событие по готовности
+		ADC1->ISR |=ADC_ISR_ADRDY;
+	}
+}
+void DMA1_CH1_IRQHandler(void){
+	if((DMA1->ISR & DMA_ISR_TCIF1))
+	{
+		UART_write((uint8_t)adcData);
+		ADC_start();
+		DMA1->IFCR |= DMA_IFCR_CGIF1;
+	}
+
+
+}
+
+
+int main(void)
+{
+	RCC_Config48MHz();
+	UART_Config();
+	ADC_init();
+	DMA_init();
+	ADC_start();
+
+	while(1)
+	{
+
+	}
+}
+
+
+

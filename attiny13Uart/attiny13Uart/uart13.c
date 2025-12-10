@@ -63,8 +63,16 @@ ISR(TIM0_COMPB_vect)
 *	запрещается.
 */
 
+typedef struct{
+	unsigned int first_visit:1;
+	unsigned int data:7;
+	}survay;
+
+
 ISR(INT0_vect)
 {
+
+	
 	rxbitcount = 0x09;						// 8 бит данных и 1 стартовый бит
 	rxbyte = 0x00;							// Обнуляем содержимое rxbyte
 	if(TCNT0 < (BAUD_DIV / 2))				// Если таймер не досчитал до середины текущего периода
@@ -90,6 +98,9 @@ ISR(INT0_vect)
 
 void uart_send(uint8_t tb)
 {
+	survay bits;
+	bits.data = 1;
+	bits.first_visit = 1;
 	while(txbitcount);				// Ждем пока закончится передача предыдущего байта
 	txbyte = (tb + 0xFF00) << 0x01; // Пишем в младшие разряды txbyte данные для передачи и сдвигаем влево на 1
 	txbitcount = 0x0A;				// Задаем счетчик байт равным 10

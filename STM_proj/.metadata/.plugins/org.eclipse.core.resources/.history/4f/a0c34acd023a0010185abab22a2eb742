@@ -1,0 +1,46 @@
+#include <stdint.h>
+#include "main.h"
+
+
+void init_gpio(){//инициализация выхода
+	//LD1 - pb0, LD2 - pb7, ld3 - pb14
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOBEN | RCC_AHB1ENR_GPIOCEN;//включение тактирования шины AHB1, которая соединяет порт В с ядром
+
+	GPIOB->MODER |= (GPIO_MODER_MODER0_0 | GPIO_MODER_MODER7_0 | GPIO_MODER_MODER14_0);//настройка пинов на выход
+	GPIOC->MODER &= ~(GPIO_MODER_MODER13_0 | GPIO_MODER_MODER13_1);
+
+}
+
+
+void delay(){
+
+	for(int i = 0; i<speed; i++){
+		i++;
+	}
+}
+uint16_t speed = 0;
+int main(void)
+{
+	init_gpio();
+
+	while(1)
+	{
+		if(GPIOC->IDR & GPIO_ODR_OD13) speed +=50000;
+		if(flag)
+		{
+			GPIOB->BSRR |= 1 << 0;
+			delay();
+			GPIOB->BSRR |= 1 << 7 ;
+			delay();
+			GPIOB->BSRR |= GPIO_BSRR_BS14;
+			delay();
+			GPIOB->BSRR |= GPIO_BSRR_BR0;
+			delay();
+			GPIOB->BSRR |= GPIO_BSRR_BR7;
+			delay();
+			GPIOB->BSRR |= GPIO_BSRR_BR14;
+			delay();
+		}
+
+	}
+}

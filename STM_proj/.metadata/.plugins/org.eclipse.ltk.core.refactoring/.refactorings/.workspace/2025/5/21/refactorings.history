@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32767_CMSIS_First&apos; to &apos;STM32767_CMSIS_1_GPIO&apos;" description="Rename resource &apos;STM32767_CMSIS_First&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/STM32767_CMSIS_First" name="STM32767_CMSIS_1_GPIO" stamp="1748002417010" updateReferences="true"/>
+</session>

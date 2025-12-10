@@ -1,0 +1,43 @@
+#include <stdint.h>
+#include <stm32f0xx.h>
+
+
+
+int main(void)
+{
+	//RCC->CR |= RCC_CR_HSEON | RCC_CR_CSSON ;//включить клок секъюрити и тактирование от внешнего кварца
+
+	 RCC->CFGR = RCC->CFGR & (~RCC_CFGR_PLLMUL) | (RCC_CFGR_PLLMUL8); /* (6) */
+	 RCC->CR |= RCC_CR_PLLON; /* (7) */
+	 while((RCC->CR & RCC_CR_PLLRDY) == 0) /* (8) */
+	 {
+	  /* For robust implementation, add here time-out management */
+	 }
+	 RCC->CFGR |= (uint32_t) (RCC_CFGR_SW_PLL); /* (9) */
+	 while ((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL) /* (10) */
+	 {
+	  /* For robust implementation, add here time-out management */
+	 }
+
+	/*RCC->CFGR2 |= RCC_CFGR2_PREDIV_DIV1;//prediv - 0
+	RCC->CFGR |= RCC_CFGR_PLLMUL2 | RCC_CFGR_PLLSRC_HSE_PREDIV;// | RCC_CFGR_SW_PLL ;
+	RCC->CFGR |= RCC_CFGR_SW_PLL;*/
+
+
+
+
+	RCC->AHBENR |= RCC_AHBENR_GPIOAEN;
+	GPIOA->MODER |= GPIO_MODER_MODER4_0;
+	GPIOA->MODER &= ~GPIO_MODER_MODER4_1;
+
+	for(;;){
+		 GPIOA->BSRR |=GPIO_BSRR_BS_4;
+		   for(int i = 0; i<1000000;i++){}
+		   GPIOA->BSRR |=GPIO_BSRR_BR_4;
+		   for(int i = 0; i<1000000;i++){}
+	}
+
+}
+
+
+

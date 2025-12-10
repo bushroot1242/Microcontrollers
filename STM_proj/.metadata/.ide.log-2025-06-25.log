@@ -1,0 +1,537 @@
+2025-06-25 11:49:17,155 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-06-25 11:49:17,172 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-06-25 11:49:17,181 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-06-25 11:49:17,183 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-06-25 11:49:17,185 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 1 : Invalid condition id : UX_CORESTACK_Condition cause : null
+2025-06-25 11:49:17,189 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.2.0.0
+2025-06-25 11:49:17,204 [WARN] PackLoader:240 - Cannot read IP mode file for STMicroelectronics.X-CUBE-WB05N.2.0.0
+2025-06-25 11:49:17,218 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.8.0
+2025-06-25 11:49:17,223 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfMQTT.1.19.2
+2025-06-25 11:49:17,240 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfTPM.3.8.0
+2025-06-25 11:49:17,256 [WARN] PackLoader:240 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSH.1.4.20
+2025-06-25 11:49:17,272 [WARN] PackLoader:240 - Cannot read IP mode file for RealThread.X-CUBE-RT-Thread_Nano.4.1.1
+2025-06-25 11:49:17,349 [WARN] PackLoader:240 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2025-06-25 11:49:17,464 [WARN] PackLoader:240 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2025-06-25 11:49:17,481 [WARN] PackLoader:240 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.3.0
+2025-06-25 11:49:17,488 [WARN] PackLoader:240 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2025-06-25 11:49:17,511 [WARN] PackLoader:240 - Cannot read IP mode file for ITTIA_DB.I-CUBE-ITTIADB.8.9.0
+2025-06-25 11:49:17,583 [WARN] PackLoader:240 - Cannot read IP mode file for Infineon.AIROC-Wi-Fi-Bluetooth-STM32.1.7.0
+2025-06-25 11:49:17,605 [WARN] PackLoader:240 - Cannot read IP mode file for Cesanta.I-CUBE-Mongoose.7.13.0
+2025-06-25 11:49:17,638 [WARN] PackLoader:240 - Cannot read IP mode file for EmbeddedOffice.I-CUBE-FS-RTOS.1.0.1
+2025-06-25 11:49:17,651 [WARN] ConditionMgr:438 - getConditionDescription Invalid condition id : Cortex-A Device cause : null
+2025-06-25 11:49:17,689 [WARN] ConditionMgr:1044 - genDependencies : Invalid condition id : Cortex-A Device cause : null
+2025-06-25 11:49:17,689 [WARN] ConditionMgr:1044 - genDependencies : Invalid condition id : Cortex-A Device cause : null
+2025-06-25 11:49:17,689 [WARN] ConditionMgr:1044 - genDependencies : Invalid condition id : Cortex-A Device cause : null
+2025-06-25 11:49:17,704 [WARN] PackLoader:240 - Cannot read IP mode file for Avnet-IotConnect.X-CUBE-IoTC-DA16k-PMOD.1.0.0
+2025-06-25 11:49:17,704 [INFO] PopulateThirdPartyThread:66 - Ending populate Thread
+2025-06-25 11:49:18,235 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 11:49:19,112 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-PM33A1 1.0.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.8.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-06-25 11:49:19,130 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IotConnect X-CUBE-IoTC-DA16k-PMOD 1.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.2
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST60 1.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.1.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-06-25 11:49:19,131 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-06-25 11:49:19,132 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 2.0.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.1
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST67W61 1.0.0
+2025-06-25 11:49:19,133 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 2.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STAIOTCFT 1.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.3.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.3
+2025-06-25 11:49:19,134 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-06-25 11:49:19,135 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 11:49:20,140 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 11:49:20,152 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 11:51:27,448 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 11:51:28,652 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 11:52:06,387 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 11:57:32,355 [INFO] WebApp:194 - Connection lost
+2025-06-25 11:57:43,546 [ERROR] LoadServerPackagesThread:830 - Invalid MD5 verification.
+2025-06-25 11:57:49,149 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 11:57:49,474 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 11:57:50,908 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 11:57:50,918 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 11:58:11,121 [INFO] WebApp:191 - Connection restablished
+2025-06-25 11:58:39,865 [WARN] ServerAccessManage:1168 - Warning during Server Connection :  timeout Read timed out
+2025-06-25 11:58:50,033 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 11:59:41,357 [INFO] WebApp:194 - Connection lost
+2025-06-25 11:59:46,161 [INFO] WebApp:191 - Connection restablished
+2025-06-25 12:20:54,320 [ERROR] LoadServerPackagesThread:830 - Invalid MD5 verification.
+2025-06-25 13:59:11,124 [INFO] WebApp:194 - Connection lost
+2025-06-25 13:59:18,124 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 13:59:18,448 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 13:59:19,882 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 13:59:19,896 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 13:59:26,594 [INFO] WebApp:191 - Connection restablished
+2025-06-25 13:59:30,228 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 14:00:14,105 [ERROR] ServerAccessManage:651 - User Cancel Download : stm32cube_fw_f0_v1110.zip.
+2025-06-25 14:00:14,243 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 14:00:14,523 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:00:15,587 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:00:15,597 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:07:43,331 [INFO] WebApp:194 - Connection lost
+2025-06-25 14:08:16,082 [INFO] WebApp:191 - Connection restablished
+2025-06-25 14:09:51,839 [INFO] WebApp:194 - Connection lost
+2025-06-25 14:09:55,603 [INFO] WebApp:191 - Connection restablished
+2025-06-25 14:19:30,369 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 14:20:15,999 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 14:20:52,307 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 14:21:29,790 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 14:22:17,192 [ERROR] LoadServerPackagesThread:830 - Invalid MD5 verification.
+2025-06-25 14:25:04,381 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 14:25:04,583 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:25:05,366 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:25:05,376 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:30:49,845 [INFO] DocFrame:73 - Open Documents window for MCU STM32F030F4
+2025-06-25 14:30:50,642 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 418844840 Bytes (1073741824)
+2025-06-25 14:31:30,730 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 14:31:34,985 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:33:22,077 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 14:34:31,074 [ERROR] LoadServerPackagesThread:830 - Invalid MD5 verification.
+2025-06-25 14:34:38,286 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 14:34:38,832 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:34:40,786 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:34:40,811 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:34:52,958 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 14:35:57,769 [ERROR] ServerAccessManage:651 - User Cancel Download : stm32cube_fw_f0_v1110.zip.
+2025-06-25 14:35:57,920 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 14:35:58,230 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:35:59,175 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:35:59,186 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:38:14,479 [ERROR] FileExtend:465 - File entry not found
+2025-06-25 14:38:14,480 [ERROR] CmsisPacksFileManager:123 - Missing pdsc file within cmsis pack : Invalid pack file
+2025-06-25 14:38:14,480 [ERROR] LoadLocalFilesThread:607 - Cmsis pack invalid or pdsc file is missing.
+2025-06-25 14:38:25,961 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 14:38:26,136 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 14:38:26,401 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:38:27,563 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:38:27,570 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:39:54,200 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 14:39:54,367 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 14:39:54,590 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:39:55,282 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:39:55,290 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:40:36,218 [ERROR] FileExtend:465 - File entry not found
+2025-06-25 14:40:36,218 [ERROR] CmsisPacksFileManager:123 - Missing pdsc file within cmsis pack : Invalid pack file
+2025-06-25 14:40:36,218 [ERROR] LoadLocalFilesThread:607 - Cmsis pack invalid or pdsc file is missing.
+2025-06-25 14:40:51,241 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 14:40:51,416 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 14:40:51,650 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:40:52,409 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:40:52,417 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:41:43,281 [ERROR] FileExtend:465 - File entry not found
+2025-06-25 14:41:43,282 [ERROR] CmsisPacksFileManager:123 - Missing pdsc file within cmsis pack : Invalid pack file
+2025-06-25 14:41:43,282 [ERROR] LoadLocalFilesThread:607 - Cmsis pack invalid or pdsc file is missing.
+2025-06-25 14:41:46,035 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 14:41:46,199 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 14:41:46,461 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:41:47,687 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:41:47,694 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:47:14,896 [INFO] WebApp:194 - Connection lost
+2025-06-25 14:48:02,737 [INFO] WebApp:191 - Connection restablished
+2025-06-25 14:48:58,577 [ERROR] ServerAccessManage:1172 - Problem during Server Connection :  IO error Connection reset
+2025-06-25 14:48:58,578 [ERROR] ServerAccessManage:651 - Problem during Server Connection :  : stm32cube_fw_f0_v1110.zip.
+2025-06-25 14:48:58,718 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 14:48:58,934 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 14:48:59,780 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 14:48:59,786 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 14:49:23,853 [INFO] WebApp:194 - Connection lost
+2025-06-25 14:49:41,831 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 14:49:47,124 [ERROR] LoadServerPackagesThread:830 - Invalid MD5 verification.
+2025-06-25 14:49:49,567 [INFO] WebApp:191 - Connection restablished
+2025-06-25 15:20:39,757 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 15:20:39,988 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:20:40,833 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:20:40,838 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:48:27,033 [WARN] FileExtend:463 - File entry not found
+2025-06-25 15:48:27,033 [INFO] FileExtend:242 - Unzip File : en.stm32cubef0.zip
+2025-06-25 15:48:27,049 [INFO] FileExtend:257 - Standard Zip Deflate
+2025-06-25 15:48:54,799 [ERROR] AdobePublisher:187 - Exception while getting the server answer: java.net.SocketTimeoutException: Read timed out
+2025-06-25 15:48:54,799 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 15:48:54,893 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 15:48:55,683 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:48:58,030 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:48:58,058 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:49:18,836 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 15:49:19,045 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 15:49:19,481 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:49:20,762 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:49:20,777 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:49:40,183 [INFO] MainUpdater:2872 - connection check result : 10
+2025-06-25 15:49:40,639 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:50:53,303 [INFO] ServerAccessManage:473 - Download File stm32cube_fw_f0_v1110.zip
+2025-06-25 15:50:53,306 [ERROR] ServerAccessManage:651 - User Cancel Download : stm32cube_fw_f0_v1110.zip.
+2025-06-25 15:50:53,440 [INFO] LoadServerPackagesThread:196 - End of LoadServerPackages Thread
+2025-06-25 15:50:53,702 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:50:55,007 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:50:55,020 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:54:39,786 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 15:54:39,987 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 15:54:40,330 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:54:41,419 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:54:41,429 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:55:08,043 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 15:55:08,230 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 15:55:08,493 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:55:09,586 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:55:09,594 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:56:05,046 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 15:56:05,230 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 15:56:05,478 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-06-25 15:56:06,417 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-06-25 15:56:06,423 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:56:14,767 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-25 15:56:16,775 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-25 15:56:20,194 [ERROR] AdobePublisher:162 - Exception while opening the connection: java.net.SocketTimeoutException: Read timed out
+2025-06-25 15:57:12,488 [INFO] Activator:176 - 
+
+
+2025-06-25 15:57:12,488 [INFO] Activator:177 - !SESSION log4j initialized
+2025-06-25 15:57:32,691 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-06-25 15:57:46,233 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-06-25 15:57:46,257 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/mcu/
+2025-06-25 15:57:46,258 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/plugins/boardmanager/
+2025-06-25 15:57:46,258 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/plugins/mcufinder/images/
+2025-06-25 15:57:46,269 [INFO] ApiDb:250 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2025-06-25 15:57:46,270 [INFO] DbMcusAds:125 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2025-06-25 15:57:46,274 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-06-25 15:57:46,453 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-06-25 15:57:46,607 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/mcu/
+2025-06-25 15:57:46,607 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/plugins/boardmanager/
+2025-06-25 15:57:46,608 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/plugins/mcufinder/images/
+2025-06-25 15:57:46,609 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,609 [INFO] ApiDb:250 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2025-06-25 15:57:46,610 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,610 [INFO] DbMcusAds:125 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2025-06-25 15:57:46,610 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,610 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,610 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-06-25 15:57:46,784 [INFO] MainPanel:272 - HeapMemory: 268435456
+2025-06-25 15:57:46,948 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/mcu/
+2025-06-25 15:57:46,949 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/plugins/boardmanager/
+2025-06-25 15:57:46,949 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\/plugins/mcufinder/images/
+2025-06-25 15:57:46,949 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,950 [INFO] ApiDb:250 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2025-06-25 15:57:46,950 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,950 [INFO] DbMcusAds:125 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/
+2025-06-25 15:57:46,950 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,950 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\User\.stmcufinder\plugins\mcufinder/ => C:\Users\User\.stmcufinder\plugins\mcufinder
+2025-06-25 15:57:46,950 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\User\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-06-25 15:57:46,979 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-06-25 15:57:46,981 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-06-25 15:57:46,984 [INFO] PluginManage:310 - Check plugin analytics
+2025-06-25 15:57:47,333 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: STM32CubeMX.6.14.0,STM32CubeMX.6.14.1
+2025-06-25 15:57:47,334 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2025-06-25 15:57:47,335 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: 
+2025-06-25 15:57:47,342 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2025-06-25 15:57:47,343 [INFO] PluginManage:310 - Check plugin cadmodel
+2025-06-25 15:57:47,352 [INFO] CADModel:105 - Init CAD model plugin
+2025-06-25 15:57:47,353 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2025-06-25 15:57:47,353 [INFO] PluginManage:310 - Check plugin clock
+2025-06-25 15:57:47,368 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2025-06-25 15:57:47,368 [INFO] PluginManage:310 - Check plugin ddr
+2025-06-25 15:57:47,373 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2025-06-25 15:57:47,374 [INFO] PluginManage:310 - Check plugin filemanager
+2025-06-25 15:57:47,648 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2025-06-25 15:57:47,648 [INFO] PluginManage:310 - Check plugin ipmanager
+2025-06-25 15:57:47,661 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2025-06-25 15:57:47,662 [INFO] PluginManage:310 - Check plugin lpbam
+2025-06-25 15:57:47,677 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2025-06-25 15:57:47,678 [INFO] PluginManage:310 - Check plugin memorymap
+2025-06-25 15:57:47,706 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2025-06-25 15:57:47,706 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2025-06-25 15:57:47,723 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2025-06-25 15:57:47,723 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2025-06-25 15:57:47,914 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2025-06-25 15:57:48,112 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2025-06-25 15:57:48,112 [INFO] PluginManage:310 - Check plugin power
+2025-06-25 15:57:48,122 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2025-06-25 15:57:48,122 [INFO] PluginManage:310 - Check plugin projectmanager
+2025-06-25 15:57:48,146 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:4)
+2025-06-25 15:57:48,146 [INFO] PluginManage:310 - Check plugin rif
+2025-06-25 15:57:48,157 [INFO] PluginManage:359 - Loaded plugin rif (category:base,tabindex:3)
+2025-06-25 15:57:48,158 [INFO] PluginManage:310 - Check plugin thirdparty
+2025-06-25 15:57:48,354 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2025-06-25 15:57:48,354 [INFO] PluginManage:310 - Check plugin tools
+2025-06-25 15:57:48,354 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2025-06-25 15:57:48,355 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2025-06-25 15:57:48,357 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2025-06-25 15:57:48,358 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2025-06-25 15:57:48,358 [INFO] PluginManage:310 - Check plugin tutovideos
+2025-06-25 15:57:48,634 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2025-06-25 15:57:48,635 [INFO] PluginManage:310 - Check plugin updater
+2025-06-25 15:57:48,674 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2025-06-25 15:57:48,674 [INFO] PluginManage:310 - Check plugin userauth
+2025-06-25 15:57:48,682 [INFO] UserAuth:118 - Init User Auth plugin
+2025-06-25 15:57:48,684 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2025-06-25 15:57:48,685 [INFO] PluginManage:283 - PluginManage : Loaded plugins [18]
+2025-06-25 15:57:49,042 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-06-25 15:57:49,158 [INFO] CADModel:165 - CPN selected for project level
+2025-06-25 15:57:49,159 [INFO] CADModel:114 - Register for checkConnection events
+2025-06-25 15:57:49,179 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,180 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2025-06-25 15:57:49,183 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,184 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2025-06-25 15:57:49,188 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,188 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2025-06-25 15:57:49,191 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,191 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2025-06-25 15:57:49,194 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,194 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2025-06-25 15:57:49,198 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,198 [INFO] PluginManager:220 - loadIPPluginJar : add ddr_ctrl_phy
+2025-06-25 15:57:49,202 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,202 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2025-06-25 15:57:49,209 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,210 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2025-06-25 15:57:49,214 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,214 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2025-06-25 15:57:49,219 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,219 [INFO] PluginManager:220 - loadIPPluginJar : add extmemmanager
+2025-06-25 15:57:49,222 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,222 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2025-06-25 15:57:49,228 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,228 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2025-06-25 15:57:49,234 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,234 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2025-06-25 15:57:49,236 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,236 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2025-06-25 15:57:49,238 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,239 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2025-06-25 15:57:49,244 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,244 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2025-06-25 15:57:49,249 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,249 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2025-06-25 15:57:49,253 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,253 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2025-06-25 15:57:49,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,257 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2025-06-25 15:57:49,260 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,261 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2025-06-25 15:57:49,264 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,264 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2025-06-25 15:57:49,268 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,268 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2025-06-25 15:57:49,275 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,275 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2025-06-25 15:57:49,284 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,284 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2025-06-25 15:57:49,288 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,288 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2025-06-25 15:57:49,289 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,290 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2025-06-25 15:57:49,298 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,298 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2025-06-25 15:57:49,304 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,304 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2025-06-25 15:57:49,309 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,309 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2025-06-25 15:57:49,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,313 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2025-06-25 15:57:49,318 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,318 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2025-06-25 15:57:49,327 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,331 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2025-06-25 15:57:49,334 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,334 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2025-06-25 15:57:49,336 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,337 [INFO] PluginManager:220 - loadIPPluginJar : add radio
+2025-06-25 15:57:49,343 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,343 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2025-06-25 15:57:49,348 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,348 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2025-06-25 15:57:49,351 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,352 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2025-06-25 15:57:49,360 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,360 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2025-06-25 15:57:49,363 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,363 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2025-06-25 15:57:49,367 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,368 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2025-06-25 15:57:49,371 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,371 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2025-06-25 15:57:49,374 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,374 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2025-06-25 15:57:49,377 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,377 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2025-06-25 15:57:49,380 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,381 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2025-06-25 15:57:49,384 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,384 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2025-06-25 15:57:49,389 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-06-25 15:57:49,389 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2025-06-25 15:57:49,559 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:49,616 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-06-25 15:57:49,639 [INFO] RulesReader:64 - Compatibility file has been processed (302 Rules)
+2025-06-25 15:57:49,653 [INFO] CADModel:165 - CPN selected for project level
+2025-06-25 15:57:49,653 [INFO] CADModel:114 - Register for checkConnection events
+2025-06-25 15:57:49,653 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:49,654 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-06-25 15:57:49,918 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:49,921 [INFO] CADModel:165 - CPN selected for project level
+2025-06-25 15:57:49,921 [INFO] CADModel:114 - Register for checkConnection events
+2025-06-25 15:57:49,922 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:49,922 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-06-25 15:57:49,932 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,107 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,112 [INFO] DbMcusAds:53 - JSON generation date=Thu Mar 06 17:54:22 MSK 2025 (1741272862204)
+2025-06-25 15:57:50,113 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,168 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-06-25 15:57:50,578 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,582 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,582 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,583 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-06-25 15:57:50,584 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:50,655 [ERROR] Updater:1198 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2025-06-25 15:57:50,659 [INFO] Updater:1134 - Updater Version found : 6.14.1
+2025-06-25 15:57:50,694 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515
+2025-06-25 15:57:51,358 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2025-06-25 15:57:54,359 [FATAL] Updater:351 - Updater called before beeing initialized
+2025-06-25 15:57:54,360 [ERROR] IntegrityCheckThread:130 - Cannot retrieve database content from updater: error 21
+2025-06-25 15:57:54,361 [INFO] ThirdParty:978 - Integrity check success = false
+2025-06-25 15:57:54,361 [INFO] IntegrityCheckThread:100 - exiting critical section [integrity check]
+2025-06-25 15:57:54,361 [INFO] IntegrityCheckThread:103 - End integrity checks thread
+2025-06-25 15:57:56,665 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-25 15:57:56,665 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-25 15:57:56,668 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-25 15:57:56,668 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-25 15:57:56,670 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-25 15:57:56,672 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-25 15:57:56,678 [INFO] MainUpdater:2872 - connection check result : 22
+2025-06-25 15:57:56,680 [INFO] MainUpdater:289 - Updater Check For Update Now.
+2025-06-25 15:57:56,681 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.141
+2025-06-25 15:57:56,693 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2025-06-25 15:57:56,698 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 15:57:56,711 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 15:57:57,083 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 15:57:57,119 [INFO] MainUpdater:2872 - connection check result : 22
+2025-06-25 15:57:58,354 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 15:57:58,485 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 15:57:58,832 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 15:57:58,874 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:08:33,018 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:08:34,974 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 16:08:35,169 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:08:35,389 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:08:35,492 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:08:35,526 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:08:55,205 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:08:57,414 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 16:08:57,605 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:08:57,850 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:08:57,931 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:08:57,969 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:09:11,557 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:09:16,501 [ERROR] FileExtend:465 - File entry not found
+2025-06-25 16:09:16,501 [ERROR] CmsisPacksFileManager:123 - Missing pdsc file within cmsis pack : Invalid pack file
+2025-06-25 16:09:16,502 [ERROR] LoadLocalFilesThread:607 - Cmsis pack invalid or pdsc file is missing.
+2025-06-25 16:09:18,425 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 16:09:18,595 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:09:18,791 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:09:18,872 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:09:18,900 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:09:29,734 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:06,134 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 16:18:06,316 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:18:06,518 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:06,601 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:06,605 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:18:09,060 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:29,464 [INFO] MainUpdater:2872 - connection check result : 22
+2025-06-25 16:18:29,785 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:29,798 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:29,835 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:18:56,624 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:56,627 [ERROR] ServerAccessManage:1146 - Warning during Server Connection :  Unknown host sw-center.st.com
+2025-06-25 16:18:56,628 [ERROR] ServerAccessManage:651 - Unknown host server name. : updaters.zip.
+2025-06-25 16:18:58,875 [WARN] LoadServerUpdatesThread:475 - Updater definition download error.
+2025-06-25 16:18:58,883 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:18:59,082 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:59,155 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:18:59,181 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:19:57,170 [INFO] MainUpdater:2872 - connection check result : 22
+2025-06-25 16:20:00,545 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:20:24,834 [INFO] ServerAccessManage:473 - Download File updaters.zip
+2025-06-25 16:21:43,108 [ERROR] FileExtend:387 - File entry not found
+2025-06-25 16:21:43,108 [WARN] LoadServerUpdatesThread:475 - Updater definition download error.
+2025-06-25 16:21:43,109 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:21:43,267 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:21:43,332 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:21:43,356 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:22:37,799 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:24:57,168 [INFO] LoadLocalFilesThread:304 - End of Local Load Thread
+2025-06-25 16:24:57,337 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:24:57,495 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:24:57,540 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:24:57,556 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:25:07,751 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:26:02,964 [INFO] ServerAccessManage:473 - Download File updaters.zip
+2025-06-25 16:26:02,969 [ERROR] ServerAccessManage:651 - User Cancel Download : updaters.zip.
+2025-06-25 16:26:02,969 [WARN] LoadServerUpdatesThread:475 - Updater definition download error.
+2025-06-25 16:26:02,971 [INFO] LoadServerUpdatesThread:375 - End of LoadServerUpdate Thread
+2025-06-25 16:26:03,123 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:26:03,187 [INFO] UserAuth:484 - Internet connection configuration mode: 2
+2025-06-25 16:26:03,202 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-06-25 16:26:28,270 [INFO] MainUpdater:2872 - connection check result : 22

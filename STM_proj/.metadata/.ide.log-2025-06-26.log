@@ -1,0 +1,34 @@
+2025-06-27 08:43:36,658 [INFO] WebApp:194 - Connection lost
+2025-06-27 08:43:52,597 [INFO] WebApp:191 - Connection restablished
+2025-06-27 08:44:21,920 [INFO] WebApp:194 - Connection lost
+2025-06-27 08:44:32,565 [INFO] WebApp:191 - Connection restablished
+2025-06-27 08:46:16,118 [INFO] WebApp:194 - Connection lost
+2025-06-27 08:46:19,701 [INFO] WebApp:191 - Connection restablished
+2025-06-27 09:10:39,722 [INFO] WebApp:194 - Connection lost
+2025-06-27 09:10:57,418 [INFO] WebApp:191 - Connection restablished
+2025-06-27 09:11:15,070 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 264447424 Bytes (723517440)
+2025-06-27 09:11:16,711 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-06-27 09:11:16,712 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-06-27 09:11:16,714 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-06-27 09:11:16,993 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\MXTmpFiles\license.tmp_save
+2025-06-27 09:11:17,727 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\MXTmpFiles\license.tmp
+2025-06-27 09:11:17,749 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\Core\Src\stm32f0xx_it.c_save
+2025-06-27 09:11:18,090 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\Core\Src\stm32f0xx_it.c
+2025-06-27 09:11:18,097 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\Core\Inc\stm32f0xx_it.h_save
+2025-06-27 09:11:18,262 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\Core\Inc\stm32f0xx_it.h
+2025-06-27 09:11:18,418 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\Core\Src\stm32f0xx_hal_msp.c_save
+2025-06-27 09:11:18,713 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\Core\Src\stm32f0xx_hal_msp.c
+2025-06-27 09:11:18,728 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\MXTmpFiles\system.tmp_save
+2025-06-27 09:11:18,884 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\MXTmpFiles\system.tmp
+2025-06-27 09:11:18,900 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\Core\Inc\stm32f0xx_hal_conf.h_save
+2025-06-27 09:11:19,056 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\Core\Inc\stm32f0xx_hal_conf.h
+2025-06-27 09:11:19,150 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-06-27 09:11:19,166 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\Core\Inc\main.h_save
+2025-06-27 09:11:19,383 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\Core\Inc\main.h
+2025-06-27 09:11:19,392 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\STM32F030F4P6_tmp\Core\Src\main.c_save
+2025-06-27 09:11:19,695 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\STM32F030F4P6_tmp\Core\Src\main.c
+2025-06-27 09:11:20,224 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 177mS.
+2025-06-27 09:11:20,232 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-06-27 09:11:20,437 [INFO] ConfigFileManager:1590 - The Die is : DIE444
+2025-06-27 09:11:20,471 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-06-27 09:11:20,537 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS

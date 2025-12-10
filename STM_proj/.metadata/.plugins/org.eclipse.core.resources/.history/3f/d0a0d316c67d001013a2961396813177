@@ -1,0 +1,11 @@
+#include <stdint.h>
+#include <stm32f0xx.h>
+
+
+
+int main(void)
+{
+	RCC->CR |= RCC_CR_CSSON | RCC_CR_CSSON | RCC_CR_HSEBYP;
+
+	for(;;);
+}

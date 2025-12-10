@@ -1,0 +1,9 @@
+08:23:57 **** Clean-only build of configuration Debug for project STM32_CMSIS_3_UART ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f767zitx.d ./Startup/startup_stm32f767zitx.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32_CMSIS_3_UART.elf STM32_CMSIS_3_UART.list STM32_CMSIS_3_UART.map default.size.stdout
+ 
+
+08:23:57 Build Finished. 0 errors, 0 warnings. (took 277ms)
+

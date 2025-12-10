@@ -1,0 +1,10 @@
+10:07:36 **** Incremental Build of configuration Debug for project exti_hal ****
+make -j4 all 
+arm-none-eabi-size  exti_hal.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16016	    332	   3236	  19584	   4c80	exti_hal.elf
+Finished building: default.size.stdout
+ 
+
+10:07:36 Build Finished. 0 errors, 0 warnings. (took 434ms)
+

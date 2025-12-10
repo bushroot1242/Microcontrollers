@@ -1,0 +1,134 @@
+2025-05-30 08:40:47,418 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 646737896 Bytes (1073741824)
+2025-05-30 08:40:49,583 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 728004584 Bytes (1073741824)
+2025-05-30 08:40:51,496 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-30 08:40:51,496 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-30 08:40:51,497 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-30 08:40:51,498 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-05-30 08:40:52,487 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\license.tmp_save
+2025-05-30 08:40:52,905 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\license.tmp
+2025-05-30 08:40:52,935 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\gpio.tmp_save
+2025-05-30 08:40:53,143 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\gpio.tmp
+2025-05-30 08:40:53,180 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\cortex.tmp_save
+2025-05-30 08:40:53,382 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\cortex.tmp
+2025-05-30 08:40:53,406 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c_save
+2025-05-30 08:40:53,971 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c
+2025-05-30 08:40:53,984 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h_save
+2025-05-30 08:40:54,106 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h
+2025-05-30 08:40:54,140 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c_save
+2025-05-30 08:40:54,331 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c
+2025-05-30 08:40:54,341 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\system.tmp_save
+2025-05-30 08:40:54,486 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\system.tmp
+2025-05-30 08:40:54,509 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h_save
+2025-05-30 08:40:54,664 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h
+2025-05-30 08:40:54,720 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\main.h_save
+2025-05-30 08:40:54,916 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\main.h
+2025-05-30 08:40:54,928 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\main.c_save
+2025-05-30 08:40:55,146 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\main.c
+2025-05-30 08:40:56,287 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 310mS.
+2025-05-30 08:40:56,295 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-05-30 08:40:56,518 [INFO] ConfigFileManager:1590 - The Die is : DIE451
+2025-05-30 08:40:59,519 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3225mS.
+2025-05-30 08:40:59,520 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 08:40:59,524 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 08:43:09,155 [INFO] Gpio:277 - dependency for GPIO []
+2025-05-30 08:43:15,486 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,27,316x246,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-30 08:43:17,986 [INFO] Gpio:277 - dependency for GPIO []
+2025-05-30 08:45:15,680 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 981238064 Bytes (1073741824)
+2025-05-30 08:45:15,940 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 395509280 Bytes (1073741824)
+2025-05-30 08:45:17,611 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 517670432 Bytes (1073741824)
+2025-05-30 08:45:18,254 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-30 08:45:18,254 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-30 08:45:18,254 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-30 08:45:18,256 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-05-30 08:45:18,491 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\license.tmp_save
+2025-05-30 08:45:18,610 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\license.tmp
+2025-05-30 08:45:18,633 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\gpio.tmp_save
+2025-05-30 08:45:18,742 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\gpio.tmp
+2025-05-30 08:45:18,771 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\cortex.tmp_save
+2025-05-30 08:45:18,862 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\cortex.tmp
+2025-05-30 08:45:18,883 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c_save
+2025-05-30 08:45:19,070 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c
+2025-05-30 08:45:19,080 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h_save
+2025-05-30 08:45:19,212 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h
+2025-05-30 08:45:19,246 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c_save
+2025-05-30 08:45:19,414 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c
+2025-05-30 08:45:19,414 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\system.tmp_save
+2025-05-30 08:45:19,496 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\system.tmp
+2025-05-30 08:45:19,530 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h_save
+2025-05-30 08:45:19,646 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h
+2025-05-30 08:45:19,681 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\main.h_save
+2025-05-30 08:45:19,815 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\main.h
+2025-05-30 08:45:19,830 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\main.c_save
+2025-05-30 08:45:19,997 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\main.c
+2025-05-30 08:45:20,440 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 164mS.
+2025-05-30 08:45:20,445 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-05-30 08:45:20,583 [INFO] ConfigFileManager:1590 - The Die is : DIE451
+2025-05-30 08:45:22,347 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1902mS.
+2025-05-30 08:45:22,348 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 08:45:22,353 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 08:45:25,906 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 627372688 Bytes (1073741824)
+2025-05-30 08:45:26,413 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-30 08:45:26,413 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-30 08:45:26,414 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-30 08:45:26,416 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-05-30 08:45:26,718 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\license.tmp_save
+2025-05-30 08:45:26,870 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\license.tmp
+2025-05-30 08:45:26,911 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\gpio.tmp_save
+2025-05-30 08:45:27,154 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\gpio.tmp
+2025-05-30 08:45:27,195 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\cortex.tmp_save
+2025-05-30 08:45:27,334 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\cortex.tmp
+2025-05-30 08:45:27,361 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c_save
+2025-05-30 08:45:27,511 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c
+2025-05-30 08:45:27,528 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h_save
+2025-05-30 08:45:27,645 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h
+2025-05-30 08:45:27,678 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c_save
+2025-05-30 08:45:27,827 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c
+2025-05-30 08:45:27,844 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\system.tmp_save
+2025-05-30 08:45:27,944 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\system.tmp
+2025-05-30 08:45:27,962 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h_save
+2025-05-30 08:45:28,044 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h
+2025-05-30 08:45:28,085 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\main.h_save
+2025-05-30 08:45:28,203 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\main.h
+2025-05-30 08:45:28,214 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\main.c_save
+2025-05-30 08:45:28,370 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\main.c
+2025-05-30 08:45:28,832 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 158mS.
+2025-05-30 08:45:28,837 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-05-30 08:45:28,954 [INFO] ConfigFileManager:1590 - The Die is : DIE451
+2025-05-30 08:45:30,487 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1650mS.
+2025-05-30 08:45:30,488 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 08:45:30,492 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 08:57:52,962 [INFO] Gpio:277 - dependency for GPIO []
+2025-05-30 08:59:00,495 [INFO] Gpio:277 - dependency for GPIO []
+2025-05-30 08:59:52,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 980885112 Bytes (1073741824)
+2025-05-30 08:59:53,179 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1012538672 Bytes (1073741824)
+2025-05-30 08:59:56,166 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 561141200 Bytes (1073741824)
+2025-05-30 08:59:57,990 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-05-30 08:59:57,990 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-05-30 08:59:57,990 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-05-30 08:59:57,990 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-05-30 08:59:58,876 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\license.tmp_save
+2025-05-30 08:59:59,287 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\license.tmp
+2025-05-30 08:59:59,336 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\gpio.tmp_save
+2025-05-30 08:59:59,521 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\gpio.tmp
+2025-05-30 08:59:59,568 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\cortex.tmp_save
+2025-05-30 08:59:59,737 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\cortex.tmp
+2025-05-30 08:59:59,754 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c_save
+2025-05-30 09:00:00,183 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_it.c
+2025-05-30 09:00:00,198 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h_save
+2025-05-30 09:00:00,329 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_it.h
+2025-05-30 09:00:00,369 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c_save
+2025-05-30 09:00:00,542 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\stm32f7xx_hal_msp.c
+2025-05-30 09:00:00,552 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\MXTmpFiles\system.tmp_save
+2025-05-30 09:00:00,666 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\MXTmpFiles\system.tmp
+2025-05-30 09:00:00,687 [INFO] CodeEngine:319 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h_save
+2025-05-30 09:00:00,841 [INFO] CodeEngine:343 - Generated code: C:\STM_proj\halProj\Core\Inc\stm32f7xx_hal_conf.h
+2025-05-30 09:00:00,899 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Inc\main.h_save
+2025-05-30 09:00:01,079 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Inc\main.h
+2025-05-30 09:00:01,089 [INFO] CodeEngine:263 - oldGeneratedFile, C:\STM_proj\halProj\Core\Src\main.c_save
+2025-05-30 09:00:01,284 [INFO] CodeEngine:287 - Generated code: C:\STM_proj\halProj\Core\Src\main.c
+2025-05-30 09:00:04,207 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 219mS.
+2025-05-30 09:00:04,214 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-05-30 09:00:04,570 [INFO] ConfigFileManager:1590 - The Die is : DIE451
+2025-05-30 09:00:07,627 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 3413mS.
+2025-05-30 09:00:07,628 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-05-30 09:00:07,632 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.

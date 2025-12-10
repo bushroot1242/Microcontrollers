@@ -1,0 +1,13 @@
+14:02:12 **** Incremental Build of configuration Debug for project STM32767_Template ****
+make -j4 all 
+arm-none-eabi-gcc -o "STM32767_Template.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\STM_proj\STM32767_Template\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32767_Template.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/main.o: in function `main':
+C:/STM_proj/STM32767_Template/Debug/../Core/Src/main.c:78:(.text.main+0x8): undefined reference to `HAL_Init'
+C:/ST/STM32CubeIDE_1.18.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Src/stm32f7xx_it.o: in function `SysTick_Handler':
+C:/STM_proj/STM32767_Template/Debug/../Core/Src/stm32f7xx_it.c:188:(.text.SysTick_Handler+0x4): undefined reference to `HAL_IncTick'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:63: STM32767_Template.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+14:02:12 Build Failed. 3 errors, 0 warnings. (took 435ms)
+

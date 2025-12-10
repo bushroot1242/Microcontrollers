@@ -1,0 +1,18 @@
+14:19:45 **** Incremental Build of configuration Debug for project STM32767_CMSIS_2_EXT_INTERUPT ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F7 -DSTM32F767ZITx -c -I"C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/Core/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F7 -DSTM32F767ZITx -c -I"C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/Core/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F7 -DSTM32F767ZITx -c -I"C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/CMSIS/Device/ST/STM32F7xx/Include" -I"C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/Core/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+In file included from C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/CMSIS/Device/ST/STM32F7xx/Include/stm32f7xx.h:133,
+                 from ../Src/main.h:3,
+                 from ../Src/main.c:2:
+C:/STM_proj/STM32767_CMSIS_2_EXT_INTERUPT/CMSIS/Device/ST/STM32F7xx/Include/stm32f767xx.h:184:10: fatal error: core_cm7.h: No such file or directory
+  184 | #include "core_cm7.h"                      /*!< Cortex-M7 processor and core peripherals      */
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+14:19:46 Build Failed. 3 errors, 0 warnings. (took 582ms)
+

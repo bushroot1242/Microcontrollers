@@ -1,0 +1,20 @@
+13:54:54 **** Build of configuration Debug for project STM32767_CMSIS_First ****
+make -j4 all 
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f767zitx.d" -MT"Startup/startup_stm32f767zitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f767zitx.o" "../Startup/startup_stm32f767zitx.s"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F7 -DSTM32F767ZITx -c -I../Inc -I"C:/STM_proj/STM32767_CMSIS_First/CMSIS/Include" -I"C:/STM_proj/STM32767_CMSIS_First/CMSIS/Device/ST/STM32F7xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F7 -DSTM32F767ZITx -c -I../Inc -I"C:/STM_proj/STM32767_CMSIS_First/CMSIS/Include" -I"C:/STM_proj/STM32767_CMSIS_First/CMSIS/Device/ST/STM32F7xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F7 -DSTM32F767ZITx -c -I../Inc -I"C:/STM_proj/STM32767_CMSIS_First/CMSIS/Include" -I"C:/STM_proj/STM32767_CMSIS_First/CMSIS/Device/ST/STM32F7xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc -o "STM32767_CMSIS_First.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\STM_proj\STM32767_CMSIS_First\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32767_CMSIS_First.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32767_CMSIS_First.elf
+ 
+arm-none-eabi-size  STM32767_CMSIS_First.elf 
+arm-none-eabi-objdump -h -S STM32767_CMSIS_First.elf  > "STM32767_CMSIS_First.list"
+   text	   data	    bss	    dec	    hex	filename
+   1028	      0	   1568	   2596	    a24	STM32767_CMSIS_First.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32767_CMSIS_First.list
+ 
+
+13:54:55 Build Finished. 0 errors, 0 warnings. (took 1s.298ms)
+

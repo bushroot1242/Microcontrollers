@@ -1,0 +1,802 @@
+13:32:15 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1328	      0	   1568	   2896	    b50	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+13:32:50 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1328	      0	   1568	   2896	    b50	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+13:40:36 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1340	      0	   1568	   2908	    b5c	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+13:56:27 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1336	      0	   1568	   2904	    b58	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+13:56:33 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1336	      0	   1568	   2904	    b58	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+13:58:05 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1340	      0	   1568	   2908	    b5c	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:02:28 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:04:14 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:05:58 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:07:06 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1260	      0	   1568	   2828	    b0c	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:07:42 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:12:35 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:13:05 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+14:13:32 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:14:08 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:15:59 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:17:11 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:18:30 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:19:07 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:19:35 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:19:51 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+14:20:55 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:21:18 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+14:21:39 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:22:08 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+14:23:48 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:24:48 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:25:17 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1264	      0	   1568	   2832	    b10	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:42:06 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:123:20: error: expected ';' before 'DMA_init'
+  123 |         ADC_start()
+      |                    ^
+      |                    ;
+  124 |         DMA_init();;
+      |         ~~~~~~~~    
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:42:12 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:123:20: error: expected ';' before 'DMA_init'
+  123 |         ADC_start()
+      |                    ^
+      |                    ;
+  124 |         DMA_init();;
+      |         ~~~~~~~~    
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+14:42:26 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:53:32 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:53:41 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1264	      0	   1568	   2832	    b10	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+14:55:43 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1232	      0	   1568	   2800	    af0	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:11:25 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1264	      0	   1568	   2832	    b10	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:16:45 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1264	      0	   1568	   2832	    b10	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+15:22:36 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1252	      0	   1568	   2820	    b04	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:23:21 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1252	      0	   1568	   2820	    b04	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+15:23:51 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1252	      0	   1568	   2820	    b04	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+15:24:21 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:24:46 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1256	      0	   1568	   2824	    b08	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+15:25:17 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:28:09 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:37:51 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1284	      0	   1568	   2852	    b24	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:38:19 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:56:54 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+15:57:42 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1284	      0	   1568	   2852	    b24	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+16:11:02 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+16:14:29 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+16:15:58 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1280	      0	   1568	   2848	    b20	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+16:17:07 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+16:25:56 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+16:27:37 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1252	      0	   1568	   2820	    b04	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+07:57:53 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+08:01:47 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1268	      0	   1568	   2836	    b14	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+08:11:12 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1244	      0	   1568	   2812	    afc	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+08:12:24 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1212	      0	   1568	   2780	    adc	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+08:12:48 **** Incremental Build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F030F4Px -c -I../Inc -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Device/ST/STM32F0xx/Include" -I"C:/STM_proj/STM32F030F4P6_RCC/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "STM32F030F4P6_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\STM_proj\STM32F030F4P6_ADC_DMA\STM32F030F4PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F030F4P6_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F030F4P6_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32F030F4P6_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32F030F4P6_ADC_DMA.elf  > "STM32F030F4P6_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+   1244	      0	   1568	   2812	    afc	STM32F030F4P6_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F030F4P6_ADC_DMA.list
+ 
+08:25:14 **** Clean-only build of configuration Debug for project STM32F030F4P6_ADC ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_ADC.elf STM32F030F4P6_ADC.list STM32F030F4P6_ADC.map default.size.stdout
+ 
+08:25:15 **** Clean-only build of configuration Debug for project STM32F030F4P6_ADC_DMA ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_ADC_DMA.elf STM32F030F4P6_ADC_DMA.list STM32F030F4P6_ADC_DMA.map default.size.stdout
+ 
+08:25:15 **** Clean-only build of configuration Debug for project STM32F030F4P6_Blink ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_Blink.bin STM32F030F4P6_Blink.elf STM32F030F4P6_Blink.hex STM32F030F4P6_Blink.list STM32F030F4P6_Blink.map default.size.stdout
+ 
+08:25:16 **** Clean-only build of configuration Release for project STM32F030F4P6_HAL ****
+make -j4 clean 
+rm -rf ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.su
+rm -rf ./Core/Startup/startup_stm32f030f4px.d ./Core/Startup/startup_stm32f030f4px.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f0xx_hal_msp.cyclo ./Core/Src/stm32f0xx_hal_msp.d ./Core/Src/stm32f0xx_hal_msp.o ./Core/Src/stm32f0xx_hal_msp.su ./Core/Src/stm32f0xx_it.cyclo ./Core/Src/stm32f0xx_it.d ./Core/Src/stm32f0xx_it.o ./Core/Src/stm32f0xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f0xx.cyclo ./Core/Src/system_stm32f0xx.d ./Core/Src/system_stm32f0xx.o ./Core/Src/system_stm32f0xx.su
+rm -rf STM32F030F4P6_HAL.elf STM32F030F4P6_HAL.list STM32F030F4P6_HAL.map default.size.stdout
+ 
+08:25:16 **** Clean-only build of configuration Default for project STM32F030F4P6_RCC ****
+make clean 
+make: *** No rule to make target 'clean'.  Stop.
+"make clean" terminated with exit code 2. Build might be incomplete.
+08:25:16 **** Clean-only build of configuration Debug for project STM32F030F4P6_Timer ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_Timer.bin STM32F030F4P6_Timer.elf STM32F030F4P6_Timer.hex STM32F030F4P6_Timer.list STM32F030F4P6_Timer.map default.size.stdout
+ 
+08:25:17 **** Clean-only build of configuration Debug for project STM32F030F4P6_TimerPWM ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_TimerPWM.elf STM32F030F4P6_TimerPWM.list STM32F030F4P6_TimerPWM.map default.size.stdout
+ 
+08:25:17 **** Clean-only build of configuration Debug for project STM32F030F4P6_Timer_Capture_Mode ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_Timer_Capture_Mode.elf STM32F030F4P6_Timer_Capture_Mode.list STM32F030F4P6_Timer_Capture_Mode.map default.size.stdout
+ 
+08:25:17 **** Clean-only build of configuration Debug for project STM32F030F4P6_UART ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32F030F4P6_UART.elf STM32F030F4P6_UART.list STM32F030F4P6_UART.map default.size.stdout
+ 
+08:25:17 **** Clean-only build of configuration Debug for project STM32F030F4P6_tmp ****
+make -j4 clean 
+rm -rf ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_exti.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.su ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.cyclo ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.d ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.o ./Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.su
+rm -rf ./Core/Startup/startup_stm32f030f4px.d ./Core/Startup/startup_stm32f030f4px.o
+rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main.su ./Core/Src/stm32f0xx_hal_msp.cyclo ./Core/Src/stm32f0xx_hal_msp.d ./Core/Src/stm32f0xx_hal_msp.o ./Core/Src/stm32f0xx_hal_msp.su ./Core/Src/stm32f0xx_it.cyclo ./Core/Src/stm32f0xx_it.d ./Core/Src/stm32f0xx_it.o ./Core/Src/stm32f0xx_it.su ./Core/Src/syscalls.cyclo ./Core/Src/syscalls.d ./Core/Src/syscalls.o ./Core/Src/syscalls.su ./Core/Src/sysmem.cyclo ./Core/Src/sysmem.d ./Core/Src/sysmem.o ./Core/Src/sysmem.su ./Core/Src/system_stm32f0xx.cyclo ./Core/Src/system_stm32f0xx.d ./Core/Src/system_stm32f0xx.o ./Core/Src/system_stm32f0xx.su
+rm -rf STM32F030F4P6_tmp.elf STM32F030F4P6_tmp.list STM32F030F4P6_tmp.map default.size.stdout
+ 
+08:26:09 **** Build of configuration Default for project STM32F030F4P6_RCC ****
+make all 
+make: *** No rule to make target 'all'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.

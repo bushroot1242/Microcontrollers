@@ -1,0 +1,9 @@
+08:23:53 **** Clean-only build of configuration Release for project STM32030F4P6_RCC ****
+make -j4 clean 
+rm -rf ./Startup/startup_stm32f030f4px.d ./Startup/startup_stm32f030f4px.o
+rm -rf ./Src/main.cyclo ./Src/main.d ./Src/main.o ./Src/main.su ./Src/syscalls.cyclo ./Src/syscalls.d ./Src/syscalls.o ./Src/syscalls.su ./Src/sysmem.cyclo ./Src/sysmem.d ./Src/sysmem.o ./Src/sysmem.su
+rm -rf STM32030F4P6_RCC.bin STM32030F4P6_RCC.elf STM32030F4P6_RCC.hex STM32030F4P6_RCC.list STM32030F4P6_RCC.map default.size.stdout
+ 
+
+08:23:54 Build Finished. 0 errors, 0 warnings. (took 688ms)
+
